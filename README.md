@@ -1,16 +1,19 @@
-### Hi there 👋
+## Hey, BuyWithCrypto Devs ! 👋
 
-<!--
-**bwcblockchain/bwcblockchain** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+We are currently students at George-Sand High School.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| [bwcblockchain/bwcblockchain](https://github.com/bwcblockchain/bwcblockchain) | [thisiskeanyvy/wordsploit](https://github.com/thisiskeanyvy/wordsploit) | [thisiskeanyvy/webstatus](https://github.com/thisiskeanyvy/webstatus) |
+| :-: | :-: | :-: |
+| <a href="https://github.com/bwcblockchain/bwcblockchain"><img src="https://github.com/bwcblockchain/bwcblockchain/raw/main/DISPLAY.jpg" alt="bwcblockchain/bwcblockchain" title="bwcblockchain/bwcblockchain" width="200" height="200"></a> | <a href="https://github.com/thisiskeanyvy/wordsploit"><img src="https://github.com/bwcblockchain/bwcblockchain/raw/main/DISPLAY.jpg" alt="thisiskeanyvy/wordsploit" title="thisiskeanyvy/wordsploit" width="200" height="200"></a> | <a href="https://github.com/thisiskeanyvy/webstatus"><img src="https://github.com/bwcblockchain/bwcblockchain/raw/main/DISPLAY.jpg" alt="thisiskeanyvy/webstatus" title="thisiskeanyvy/webstatus" width="200" height="200"></a> |
+
+| [thisiskeanyvy/blog](https://github.com/thisiskeanyvy/blog) | [thisiskeanyvy/blocktracker](https://github.com/thisiskeanyvy/blocktracker) | [thisiskeanyvy/portfolio](https://github.com/thisiskeanyvy/portfolio) |
+| :-: | :-: | :-: |
+| <a href="https://github.com/thisiskeanyvy/blog"><img src="https://github.com/bwcblockchain/bwcblockchain/raw/main/DISPLAY.jpg" alt="thisiskeanyvy/blog" title="thisiskeanyvy/blog" width="200" height="200"></a> | <a href="https://github.com/thisiskeanyvy/blocktracker"><img src="https://github.com/bwcblockchain/bwcblockchain/raw/main/DISPLAY.jpg" alt="thisiskeanyvy/blocktracker" title="thisiskeanyvy/blocktracker" width="200" height="200"></a> | <a href="https://github.com/thisiskeanyvy/portfolio"><img src="https://github.com/bwcblockchain/bwcblockchain/raw/main/DISPLAY.jpg" alt="thisiskeanyvy/portfolio" title="thisiskeanyvy/portfolio" width="200" height="200"></a> |
+
+
+
+---
+
+**Our project [buywtihcrypto.pages.dev](https://buywtihcrypto.pages.dev)!**
