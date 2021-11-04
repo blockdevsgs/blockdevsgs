@@ -1,5 +1,21 @@
-name: Manual
+name: Update README
+
 on:
-  repository_dispatch:
-    types:
-      - build_application
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: theboi/github-update-readme@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          header: "Hey, BuyWithCrypto Devs ! 👋"
+          subhead: "We are currently students at George-Sand High School."
+          repoTable: "<img src='https://picsum.photos/400/600?random=2'>"
+          footer: "**Our project [buywtihcrypto.pages.dev](https://buywtihcrypto.pages.dev)!**"
