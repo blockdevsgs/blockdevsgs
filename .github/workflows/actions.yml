@@ -1,21 +1,19 @@
 name: Update README
-
 on:
+  push:
   schedule:
-    - cron: "0 */2 * * *"
-  workflow_dispatch:
-
+    - cron: "0 */2 * * *" 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-      - uses: theboi/github-update-readme@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          header: "Hey, BuyWithCrypto Devs ! 👋"
-          subhead: "We are currently students at George-Sand High School."
-          repoTable: "<img src='https://picsum.photos/400/600?random=2'>"
-          footer: "**Our project [buywtihcrypto.pages.dev](https://buywtihcrypto.pages.dev)!**"
+    - name: Update GitHub Profile README
+      uses: theboi/github-update-readme@main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        header: "Hey, BuyWithCrypto Devs ! 👋"
+        subhead: "We are currently students at George-Sand High School."
+        repoTable: "<img src='https://picsum.photos/400/600?random=2'>"
+        footer: "**Our project [buywtihcrypto.pages.dev](https://buywtihcrypto.pages.dev)!**"
+        ref: "main"        
