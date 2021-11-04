@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Update GitHub Profile README
-      uses: theboi/github-update-readme@main
+    - uses: theboi/github-update-readme@main
+    - uses: stefanzweifel/git-auto-commit-action@v4
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
       with:
@@ -18,4 +19,6 @@ jobs:
         footer: "**Our project [buywithcrypto.pages.dev](https://buywithcrypto.pages.dev)!**"
         ref: "main"
         excludeActivity: '["WatchEvent"]'
-        token: ${{ secrets.GITHUB_TOKEN }}
+        commit_user_name: BuyWithCrypto Devs
+        commit_user_email: buywithcrypto@yandex.com
+        commit_author: BuyWithCrypto Devs <buywithcrypto@yandex.com>
