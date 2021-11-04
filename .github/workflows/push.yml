@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Start PUSH
-      run: |-
-        git diff
-        git config --global user.email "buywithcrypto@yandex.com"
-        git config --global user.name "bwcblockchain"
-        git add --all
-        git commit -m "New push" || exit 0
-        git push
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Hello world"
+        commit_user_name: "bwcblockchain"
+        commit_user_email: "buywithcrypto@yandex.com"
+        commit_author: "BuyWithCrypto Devs <buywithcrypto@yandex.com>"
+        push_options: '--force'
