@@ -13,4 +13,4 @@ We are currently students at George-Sand High School.
 
 ---
 
-**Our project [buywtihcrypto.pages.dev](https://buywtihcrypto.pages.dev)!**
+**Our project [buywithcrypto.pages.dev](https://buywithcrypto.pages.dev)!**
