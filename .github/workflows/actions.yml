@@ -1,4 +1,5 @@
 name: Update README
+
 on:
   push:
   schedule:
@@ -10,8 +11,10 @@ jobs:
     - name: Update GitHub Profile README
       uses: theboi/github-update-readme@main
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
       with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        commit_options: '--no-verify --signoff'
         header: "Hey, BuyWithCrypto Devs ! 👋"
         subhead: "We are currently students at George-Sand High School.  \n<img src='https://picsum.photos/400/600?random=2'>"
         footer: "**Our project [buywithcrypto.pages.dev](https://buywithcrypto.pages.dev)!**"
