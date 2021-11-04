@@ -1,0 +1,5 @@
+name: Manual
+on:
+  repository_dispatch:
+    types:
+      - build_application
