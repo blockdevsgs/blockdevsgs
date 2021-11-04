@@ -16,4 +16,4 @@ jobs:
         subhead: "We are currently students at George-Sand High School.  \n<img src='https://picsum.photos/400/600?random=2'>"
         footer: "**Our project [buywtihcrypto.pages.dev](https://buywtihcrypto.pages.dev)!**"
         ref: "main"
-        excludeActivity: "['WatchEvent', 'ForkEvent']"
+        excludeActivity: '["WatchEvent"]'
