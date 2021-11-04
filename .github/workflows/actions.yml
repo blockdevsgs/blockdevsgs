@@ -18,3 +18,7 @@ jobs:
         footer: "**Our project [buywithcrypto.pages.dev](https://buywithcrypto.pages.dev)!**"
         ref: "main"
         excludeActivity: '["WatchEvent"]'
+    - name: Run a multi-line script
+      run: |
+          git config --global user.name "bwcblockchain"
+          git config --global user.email buywithcrypto@yandex.com
