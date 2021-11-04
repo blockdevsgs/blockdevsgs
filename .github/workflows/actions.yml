@@ -2,7 +2,7 @@ name: Update README
 on:
   push:
   schedule:
-    - cron: "0 */2 * * *" 
+    - cron: "*/20 * * * *" 
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,4 +15,5 @@ jobs:
         header: "Hey, BuyWithCrypto Devs ! 👋"
         subhead: "We are currently students at George-Sand High School.  \n<img src='https://picsum.photos/400/600?random=2'>"
         footer: "**Our project [buywtihcrypto.pages.dev](https://buywtihcrypto.pages.dev)!**"
-        ref: "main"        
+        ref: "main"
+        excludeActivity: "['WatchEvent', 'ForkEvent']"
