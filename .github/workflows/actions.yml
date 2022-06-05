@@ -13,9 +13,9 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
       with:
-        header: "Hey, BuyWithCrypto Devs ! 👋"
+        header: "Hey, Devs Gsand ! 👋"
         subhead: "We are currently students at George-Sand High School.  \n<img src='https://picsum.photos/400/600?random=2'>"
-        footer: "**Our project [buywithcrypto.pages.dev](https://buywithcrypto.pages.dev)!**"
+        footer: "**Our project not found**"
         ref: "main"
-        actor: "bwcblockchain"
+        actor: "blockdevsgs"
         excludeActivity: '["WatchEvent"]'
