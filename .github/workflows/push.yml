@@ -12,7 +12,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: "Hello world"
-        commit_user_name: "bwcblockchain"
+        commit_user_name: "blockdevsgs"
         commit_user_email: "buywithcrypto@yandex.com"
         commit_author: "BuyWithCrypto Devs <buywithcrypto@yandex.com>"
         push_options: '--force'
