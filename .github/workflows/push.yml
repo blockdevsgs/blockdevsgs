@@ -14,5 +14,5 @@ jobs:
         commit_message: "Hello world"
         commit_user_name: "blockdevsgs"
         commit_user_email: "buywithcrypto@yandex.com"
-        commit_author: "BuyWithCrypto Devs <buywithcrypto@yandex.com>"
+        commit_author: "Devs Gsand <buywithcrypto@yandex.com>"
         push_options: '--force'
